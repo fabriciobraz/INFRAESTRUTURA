@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SGRI.Master.cs" Inherits="SGRI.Interface.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/css" href="CSS/StyleSheet1.css"/>
+</head>
+<body>
+    <form id="form1" runat="server" class="body">
+    <div>
+            <p class="logo">SISTEMA DE GERENCIAMENTO DE RECURSOS</p>
+            <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal">
+                <Items>
+                    <asp:MenuItem Text="Gerenciar" Value="Gerenciar Equipamentos e Salas">
+                        <asp:MenuItem Text="Equipamentos e Salas" Value="Equipamentos e Salas">
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Usuários" Value="Usuários"></asp:MenuItem>
+                        <asp:MenuItem Text="Reserva para aula" Value="Reserva para aula"></asp:MenuItem>
+                        <asp:MenuItem Text="Reserva para eventos" Value="Reserva para eventos">
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Ocorrências" Value="Ocorrências"></asp:MenuItem>
+                    </asp:MenuItem>
+                    <asp:MenuItem Text="Importar" Value="Importar">
+                        <asp:MenuItem Text="Professores e Alunos" Value="Professores e Alunos">
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Turmas" Value="Turmas"></asp:MenuItem>
+                    </asp:MenuItem>
+                    <asp:MenuItem Text="Relatórios" Value="Relatórios"></asp:MenuItem>
+                </Items>
+            </asp:Menu>
+    </div>
+    <div class="main">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <div class="footer"> 
+        <p align="right" dir="ltr" class="foot">© Copyright 2012.</p> 
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,24 @@
+﻿body
+    {
+        background-color:transparent;
+        margin:13mm;
+        width: auto;
+    }
+    .foot
+    {
+        margin-left:5mm;
+        font-weight:bold;
+    }
+    .tableDiv
+    {
+        width: auto;
+    }
+    
+    .logo 
+    {
+        color: Blue;
+        font-weight:bold;
+        position:relative;
+        font-size:x-large;
+        top: 0mm;
+    }

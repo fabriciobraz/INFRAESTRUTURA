@@ -1,0 +1,5 @@
+c:\users\rafael\documents\visual studio 2010\Projects\SGRI\SGRI\bin\SGRI.dll
+c:\users\rafael\documents\visual studio 2010\Projects\SGRI\SGRI\bin\SGRI.pdb
+c:\users\rafael\documents\visual studio 2010\Projects\SGRI\SGRI\obj\Debug\ResolveAssemblyReference.cache
+c:\users\rafael\documents\visual studio 2010\Projects\SGRI\SGRI\obj\Debug\SGRI.dll
+c:\users\rafael\documents\visual studio 2010\Projects\SGRI\SGRI\obj\Debug\SGRI.pdb

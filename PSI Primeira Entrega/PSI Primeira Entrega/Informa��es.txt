@@ -1,0 +1,8 @@
+Pessoal, vamos fazer em PHP então usando o Wordpress né?
+
+Baixem a IDE Eclipse para php por este link
+http://www.zend.com/community/pdt?ecl=EclipseZend
+
+Vamos trabalhar na minha núvem privada para desenvolvimento
+Vou deixar no seguinte servidor
+
