@@ -1,0 +1,7 @@
+C:\Users\Rafael\Documents\Visual Studio 2010\Projects\SGRI\SGRI\bin\SGRI.dll
+C:\Users\Rafael\Documents\Visual Studio 2010\Projects\SGRI\SGRI\bin\SGRI.pdb
+C:\Users\Rafael\Documents\Visual Studio 2010\Projects\SGRI\SGRI\bin\Persistencia.dll
+C:\Users\Rafael\Documents\Visual Studio 2010\Projects\SGRI\SGRI\bin\Persistencia.pdb
+C:\Users\Rafael\Documents\Visual Studio 2010\Projects\SGRI\SGRI\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Rafael\Documents\Visual Studio 2010\Projects\SGRI\SGRI\obj\Debug\SGRI.dll
+C:\Users\Rafael\Documents\Visual Studio 2010\Projects\SGRI\SGRI\obj\Debug\SGRI.pdb
