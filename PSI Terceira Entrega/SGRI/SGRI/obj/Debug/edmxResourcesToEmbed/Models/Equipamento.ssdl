@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SGRI_DBModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="SGRI_DBModelStoreContainer">
+    <EntitySet Name="equipamento" EntityType="SGRI_DBModel.Store.equipamento" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="equipamento">
+    <Key>
+      <PropertyRef Name="CodigoPatrimonio" />
+    </Key>
+    <Property Name="CodigoPatrimonio" Type="nchar" Nullable="false" MaxLength="10" />
+    <Property Name="Descricao" Type="text" />
+    <Property Name="Tipo" Type="text" />
+    <Property Name="Status" Type="nchar" MaxLength="20" />
+  </EntityType>
+</Schema>

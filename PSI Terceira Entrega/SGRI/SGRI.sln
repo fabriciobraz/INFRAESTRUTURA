@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SGRI", "SGRI\SGRI.csproj", "{5ABC853C-3A06-4A3A-B4C1-9B7F77FDDB53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistencia", "..\SGRI_sMVC\Persistencia\Persistencia.csproj", "{7C8F0017-DC5D-4795-98DF-39482DE8F75F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5ABC853C-3A06-4A3A-B4C1-9B7F77FDDB53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ABC853C-3A06-4A3A-B4C1-9B7F77FDDB53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ABC853C-3A06-4A3A-B4C1-9B7F77FDDB53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ABC853C-3A06-4A3A-B4C1-9B7F77FDDB53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C8F0017-DC5D-4795-98DF-39482DE8F75F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C8F0017-DC5D-4795-98DF-39482DE8F75F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C8F0017-DC5D-4795-98DF-39482DE8F75F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C8F0017-DC5D-4795-98DF-39482DE8F75F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

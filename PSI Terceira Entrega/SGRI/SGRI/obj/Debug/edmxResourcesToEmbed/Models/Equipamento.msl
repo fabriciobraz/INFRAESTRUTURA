@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SGRI_DBModelStoreContainer" CdmEntityContainer="SGRI_DBEntities2">
+    <EntitySetMapping Name="equipamentoes">
+      <EntityTypeMapping TypeName="SGRI_DBModel.equipamento">
+        <MappingFragment StoreEntitySet="equipamento">
+          <ScalarProperty Name="CodigoPatrimonio" ColumnName="CodigoPatrimonio" />
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+          <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
